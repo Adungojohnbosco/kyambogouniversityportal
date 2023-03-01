@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.home.HomeFragment"
+        android:label="online portals"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.gallery.GalleryFragment"
+        android:label="elearning"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.slideshow.SlideshowFragment"
+        android:label="web mail"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_jobs"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.home.HomeFragment"
+        android:label="jobs"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_faqs"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.gallery.GalleryFragment"
+        android:label="FAQS"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_Downlods"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.slideshow.SlideshowFragment"
+        android:label="Dowmloads"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_conferences"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.gallery.GalleryFragment"
+        android:label="Conferences"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_upcommingEvents"
+        android:name="com.johnbosco.nilebreweriesuganda.ui.slideshow.SlideshowFragment"
+        android:label="Upcomming Events"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>
